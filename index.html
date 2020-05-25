@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Hello!</title>
-    
+
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
+    <link rel="stylesheet" href="/style.css" />
+
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
-  </head>  
+  </head>
   <body>
-    <h1>Hi there!</h1>
+    <div class="login-container">
+      
+      
+      <form > <!--add a form action to take you to the success page and an onsubmit() method to check password-->
+        <h3>
+          Please log in:
+        </h3>
+        <input type="text" id="question1" name="q1" placeholder="email" value="" /><br />
+        <input type="text" id="question2" name="q2" placeholder="email" value="" /><br />
+        <input type="text" id="question3" name="q2" placeholder="email" value="" /><br />
+        <input type="text" id="question4" name="email" placeholder="email" value="" /><br />
+         
+        
+        <input type="submit" />
+      </form>
+    </div>
     
-    <p>
-      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
-    </p>
-
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js" defer></script>
+    <!--add a script to handle checking the email/password combo -->
+    
+    
+    
   </body>
 </html>
