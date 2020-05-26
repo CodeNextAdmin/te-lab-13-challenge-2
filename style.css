@@ -3,7 +3,8 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
-  text-align:center;
+  text-align:right;
+   
 }
 
 h1 {
@@ -14,9 +15,16 @@ h1 {
 .login-container{
   
   position:absolute;
-   
-  width:400px;
+  margin-left:35%; 
+  width:auto;
   height:auto;
   background:PaleGoldenRod;
   padding:12px;
 }
+
+input{
+  
+  
+}
+
+ 
